@@ -1,0 +1,55 @@
+{
+  "trigger_url": "https://api.runscope.com/radar/57016834-04a3-41be-b7cb-0b03ba3603b4/trigger",
+  "name": "google",
+  "version": "1.0",
+  "exported_at": 1521424549, 
+  "steps": [
+    {
+      "skipped": false, 
+      "url": "https://www.google.com",
+      "variables": [], 
+      "args": {}, 
+      "step_type": "request", 
+      "auth": {}, 
+      "fragment": "", 
+      "note": "", 
+      "headers": {}, 
+      "assertions": [
+        {
+          "comparison": "equal_number", 
+          "value": 200, 
+          "source": "response_status"
+        }
+      ], 
+      "scripts": [], 
+      "multipart_form": [], 
+      "before_scripts": [], 
+      "data": "", 
+      "method": "GET"
+    },
+    {
+      "skipped": false,
+      "url": "https://www.google.com.tw",
+      "variables": [],
+      "args": {},
+      "step_type": "request",
+      "auth": {},
+      "fragment": "",
+      "note": "",
+      "headers": {},
+      "assertions": [
+        {
+          "comparison": "equal_number",
+          "value": 200,
+          "source": "response_status"
+        }
+      ],
+      "scripts": [],
+      "multipart_form": [],
+      "before_scripts": [],
+      "data": "",
+      "method": "GET"
+    }
+  ], 
+  "description": ""
+}
